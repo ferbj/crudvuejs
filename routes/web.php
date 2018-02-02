@@ -12,7 +12,7 @@
 
 Route::get('/', function () {
     /*return view('welcome');*/
-    return url('vuejscrud');
+    return redirect('vuejscrud');
 });
 
 Route::group(['middleware'=>['web']],function(){
